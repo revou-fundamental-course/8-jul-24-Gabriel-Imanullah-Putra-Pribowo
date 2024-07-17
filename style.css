@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;  /* Mengatur jenis huruf utama untuk seluruh halaman */
+    margin: 0;  /* Menghapus margin default dari body */
+    padding: 0;  /* Menghapus padding default dari body */
+    background-color: #f0f0f0;  /* Mengatur warna latar belakang halaman menjadi abu-abu muda */
+}
+  
+.container {
+    max-width: 600px;  /* Mengatur lebar maksimum kontainer menjadi 600px */
+    margin: 0 auto;  /* Membuat kontainer berada di tengah halaman */
+    padding: 20px;  /* Menambahkan padding di dalam kontainer */
+    background-color: white;  /* Mengatur warna latar belakang kontainer menjadi putih */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Menambahkan bayangan lembut di sekitar kontainer */
+}
+  
+h1, h2 {
+    text-align: center;  /* Mengatur teks judul (h1, h2) menjadi rata tengah */
+}
+  
+.form-group {
+    margin-bottom: 20px;  /* Menambahkan jarak bawah 20px pada setiap grup form */
+}
+  
+label {
+    display: block;  /* Menampilkan label sebagai blok (memenuhi lebar kontainer) */
+    font-weight: bold;  /* Membuat teks label menjadi tebal */
+    margin-bottom: 5px;  /* Menambahkan jarak bawah 5px pada label */
+}
+  
+input[type="number"] {
+    width: 100%;  /* Mengatur lebar input number menjadi 100% dari lebar kontainer */
+    padding: 10px;  /* Menambahkan padding di dalam input number */
+    font-size: 16px;  /* Mengatur ukuran font di dalam input number menjadi 16px */
+    border: 1px solid #ccc;  /* Mengatur border input number menjadi 1px solid dengan warna abu-abu */
+    border-radius: 4px;  /* Menambahkan sudut tumpul pada border input number */
+}
+  
+.radio-group {
+    display: flex;  /* Mengatur grup radio button menjadi flexbox */
+    align-items: center;  /* Menyelaraskan item di dalam flexbox secara vertikal di tengah */
+}
+  
+.radio-group input[type="radio"] {
+    margin-right: 5px;  /* Menambahkan jarak kanan 5px pada radio button */
+}
+  
+.btn {
+    display: block;  /* Menampilkan tombol sebagai blok (memenuhi lebar kontainer) */
+    width: 100%;  /* Mengatur lebar tombol menjadi 100% dari lebar kontainer */
+    padding: 10px;  /* Menambahkan padding di dalam tombol */
+    font-size: 16px;  /* Mengatur ukuran font di dalam tombol menjadi 16px */
+    background-color: #4CAF50;  /* Mengatur warna latar belakang tombol menjadi hijau */
+    color: white;  /* Mengatur warna teks tombol menjadi putih */
+    border: none;  /* Menghapus border dari tombol */
+    border-radius: 4px;  /* Menambahkan sudut tumpul pada tombol */
+    cursor: pointer;  /* Mengubah kursor menjadi pointer saat hover di tombol */
+}
+  
+.btn:hover {
+    background-color: #45a049;  /* Mengatur warna latar belakang tombol saat hover menjadi hijau lebih gelap */
+}
+  
+.hidden {
+    display: none;  /* Menyembunyikan elemen yang memiliki kelas hidden */
+}
